@@ -18,7 +18,7 @@ function App() {
     }, 1200);
     setTimeout(() => {
       setLoaded(true);
-    }, 1500);
+    }, 2500);
   });
   return (
     <BrowserRouter>
