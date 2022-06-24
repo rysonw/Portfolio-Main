@@ -41,14 +41,6 @@ const Home = ({ loaded, loading }) => {
       <Project />
       <Contact />
       <Footer />
-      {backTopButton && (
-        <div
-          className="fixed right-0 bottom-0 transform translate-x-[-50%] translate-y-[-50%] w-[4rem] h-[4rem] bg-white p-4 rounded-full flex border-2 border-primary justify-center items-center hover:bg-primary arrow-box duration-500 cursor-pointer z-[100]"
-          onClick={scrollToTop}
-        >
-          <HiOutlineArrowNarrowUp className="text-4xl text-primary " />
-        </div>
-      )}
     </div>
   );
 };

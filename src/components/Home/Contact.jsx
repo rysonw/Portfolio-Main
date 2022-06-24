@@ -17,7 +17,7 @@ const Contact = () => {
         </h2>
 
         <p className="text-lg md:text-xl font-primary my-8 text-custom-blue text-center">
-          Feel Free To Reach Out! Let's Connect!
+          Let's Connect!
         </p>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-10">
           <div

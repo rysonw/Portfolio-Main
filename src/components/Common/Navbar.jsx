@@ -19,18 +19,6 @@ const Navbar = () => {
   return (
     <nav className="fixed top-[50%] translate-y-[-50%] z-[400]">
       <div className="flex flex-col gap-y-8 ml-4 main-nav">
-        <a
-          href={fileCV}
-          download
-          className="bg-[#f2f3f5] w-[4rem] h-[4rem] hover:w-[10rem] rounded-full flex justify-center hover:justify-start  items-center overflow-hidden icon-box hover:pl-4 duration-300 transition-all hover:bg-primary text-custom-blue hover:text-white"
-        >
-          <div className="flex justify-start items-center ">
-            <AiOutlineDownload className="text-3xl pb-1 border-b-2   icon" />
-            <span className="icon-text ml-4 text-base capitalize font-primary hover:text-white">
-              Download Resume
-            </span>
-          </div>
-        </a>
         {navData.map((data, index) => (
           <Link
             key={index}
@@ -65,6 +53,18 @@ const Navbar = () => {
             </div>
           </Link>
         ))}
+        <a
+          href={fileCV}
+          download
+          className="bg-[#f2f3f5] w-[4rem] h-[4rem] hover:w-[10rem] rounded-full flex justify-center hover:justify-start  items-center overflow-hidden icon-box hover:pl-4 duration-300 transition-all hover:bg-primary text-custom-blue hover:text-white"
+        >
+          <div className="flex justify-start items-center ">
+            <AiOutlineDownload className="text-3xl pb-1 border-b-2   icon" />
+            <span className="icon-text ml-4 text-base capitalize font-primary hover:text-white">
+              Download Resume
+            </span>
+          </div>
+        </a>
       </div>
     </nav>
   );

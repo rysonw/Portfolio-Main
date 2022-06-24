@@ -12,7 +12,7 @@ const MovingText = () => {
         onInit={(typewriter) => {
           typewriter
             .typeString(
-              "<span class='text-[#0e0c38] font-primary text-2xl md:text-4xl font-bold'>Service Member</span>"
+              "<span class='text-[#0e0c38] font-primary text-2xl md:text-4xl font-bold'>Student</span>"
             )
             .pauseFor(1500)
             .deleteAll()
@@ -27,7 +27,12 @@ const MovingText = () => {
             .pauseFor(1500)
             .deleteAll()
             .typeString(
-              "<span class='text-[#57ca56] font-primary text-2xl md:text-4xl font-bold'>Student</span>"
+              "<span class='text-[#57ca56] font-primary text-2xl md:text-4xl font-bold'>Service Member</span>"
+            )
+            .pauseFor(1500)
+            .deleteAll()
+            .typeString(
+              "<span class='text-[#57ca56] font-primary text-2xl md:text-4xl font-bold'>Leader</span>"
             )
             .pauseFor(1500)
             .deleteAll()
