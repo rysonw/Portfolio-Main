@@ -46,8 +46,8 @@ const CVComponents = () => {
             subTitle="Software Development Intern / Georgia Tech Research Institution"
             list={[
               "Created full-stack website using React, Node.js, and Java Bootstrap for AFWERX WEPTAC Event",
-              "Fixed bugs and added new features to Corsair Ranch's official website",
-              "Participated in multiple sprints and scrum meetings where I actively",
+              "Fixed bugs and added new features to Corsair Ranch's official website.",
+              "Participated in multiple sprints and scrum meetings to present key features and discuss urgent bug fixes",
               "Created short-term solutions using Microsoft’s Power Apps which was utilized by over 100’s of end-users",
             ]}
           />
@@ -58,7 +58,7 @@ const CVComponents = () => {
             subTitle="Fellow / Production Engineering"
             list={[
               "Worked with Linux Systems, Flask, Docker, GitHub Actions, cAdvisor, and other technologies to keep services and applications running and highly available.",
-              "Programmed, designed, and deployed a sleek and professional portfolio template for users to utilize",
+              "Programmed, designed, and deployed a sleek and professional portfolio template for users to utilize and personally customize themselves.",
               "Created a Docker containerized web application secured with SSL to run robustly and continuously using CI/CD tools in a CentOS AWS instance able to handle up to 100 requests per second.",
             ]}
           />
