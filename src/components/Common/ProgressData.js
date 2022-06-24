@@ -1,14 +1,14 @@
 export const porgressPercentage = (number) => {
-  if (number === "50") {
-    return `after:content-['50%']`;
+  if (number === "80") {
+    return `after:content-['80%']`;
   }
-  if (number === "76") {
-    return `after:content-['76%']`;
+  if (number === "67") {
+    return `after:content-['67%']`;
   }
-  if (number === "91") {
-    return `after:content-['91%']`;
+  if (number === "90") {
+    return `after:content-['90%']`;
   }
-  if (number === "59") {
-    return `after:content-['59%']`;
+  if (number === "35") {
+    return `after:content-['35%']`;
   }
 };

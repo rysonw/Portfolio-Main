@@ -13,16 +13,8 @@ const Personal = () => {
         He is a current sophmore attending Oregon State University where he is currently majoring in Computer Science with a minor in Mathematics. He hopes to learn as much as possible with OSU before he pursues his Masters at the Georgia Institute of Technology with a focus in Artifical Intelligence.
         He is currently participating as a fellow with the Major League Hacking Production Engineering Fellowhip with Meta. He is currently working on building pipelines and scripts to automate the CI/CD process.<br />
         <br />
-      </p>
-
-      <p1 className="text-xl font-primary ml-0 md:ml-10">
         I am currently seeking SWE internship opportunities, please do not be afraid to reach out!
-      </p1>
-
-
-
-
-      
+      </p>      
 
     </div>
   );
