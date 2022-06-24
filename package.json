@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://rysonw.github.io/Portfolio-Main",
+  "homepage": "https://rysonw.github.io/Portfolio-Main/",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.6.5",
