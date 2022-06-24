@@ -2,6 +2,7 @@ import BubbleEffect from "../BubbleEffect/BubbleEffect";
 import { HeroSocial } from "./HeroSocial";
 import Profile from "../../assets/profile.jpg";
 import MovingText from "../Utils/MovingText";
+import { Link } from "react-scroll";
 
 const Hero = () => {
   return (

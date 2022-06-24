@@ -1,4 +1,4 @@
-import file from "../../assets/CV.pdf";
+import file from "../../assets/Resume - Ryson Wong.pdf";
 import Activities from "../Common/CvComponent/Activities";
 import EducationCard from "../Common/CvComponent/EducationCard";
 import Experience from "../Common/CvComponent/Experience";

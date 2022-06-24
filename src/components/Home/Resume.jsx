@@ -1,4 +1,4 @@
-import file from "../../assets/CV.pdf";
+import file from "../../assets/Resume - Ryson Wong.pdf";
 import CVComponents from "./CVComponents";
 
 const Resume = () => {

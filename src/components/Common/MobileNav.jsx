@@ -9,7 +9,7 @@ import {
 } from "react-icons/ai";
 import { FaRegEnvelope } from "react-icons/fa";
 import { Link } from "react-scroll";
-import fileCV from "../../assets/CV.pdf";
+import fileCV from "../../assets/Resume - Ryson Wong.pdf";
 
 import { FiX } from "react-icons/fi";
 import { GiHamburgerMenu } from "react-icons/gi";

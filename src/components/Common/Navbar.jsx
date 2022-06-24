@@ -7,7 +7,7 @@ import {
 } from "react-icons/ai";
 import { FaRegEnvelope } from "react-icons/fa";
 import { Link } from "react-scroll";
-import fileCV from "../../assets/CV.pdf";
+import fileCV from "../../assets/Resume - Ryson Wong.pdf";
 const navData = [
   { name: "Home", link: "home", offset: -50 },
   { name: "about me", link: "about", offset: -50 },
