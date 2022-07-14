@@ -15,7 +15,8 @@ const careerData = [
     companyName: "Major League Hacking ",
     designation: "Fellow",
     duration: "3 Months",
-    link: "https://fellowship.mlh.io/"
+    link: "https://fellowship.mlh.io/",
+    logo: "./public/HIANG.jpg"
   },
 ];
 
@@ -29,7 +30,7 @@ const CareerTable = () => {
               Company Name
             </th>
             <th scope="col" className="px-6 py-3 text-lg">
-              Designation
+              Role
             </th>
             <th scope="col" className="px-6 py-3 text-lg">
               Duration
@@ -45,9 +46,8 @@ const CareerTable = () => {
               <th
                 scope="row"
                 className="px-6 py-4 font-medium text-custom-orange dark:text-white whitespace-nowrap text-base"
-                href = {data.link}
               >
-                {data.companyName}
+                {data.companyName} {data.link} <img src="./public/HIANG.jpg" alt="HIANG"></img>
               </th>
               <td className="px-6 py-4 text-base text-custom-blue">
                 {data.designation}

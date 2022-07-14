@@ -9,7 +9,7 @@ const projectData = [
       "A memory game that gets progressively harder every round. How long can you last?",
     Tech: "HTML, CSS, JavaScript",
     desc: "A game based on the popular memory game: SIMON, which utilizes HTML, CSS and JS as well as the popular coding playground: Glitch.",
-    gitlink: "https://github.com/hussaino03/SmartList",
+    gitlink: "https://github.com/rysonw/Ryson_Requests",
   },
   {
     title: "iStudy",
