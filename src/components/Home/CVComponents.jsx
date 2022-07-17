@@ -128,8 +128,8 @@ const CVComponents = () => {
             name="CompTIA Network+, CompTIA Security+, ITS-305: Software Development"
           />
           <Skill
-            title="Software:"
-            name="Android Studio, Git, Visual Studio Code, Microsoft Power Apps"
+            title="Other:"
+            name="Git, Linux, Microsoft Power Apps"
           />
         </div>
       </div>

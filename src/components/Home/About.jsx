@@ -10,6 +10,8 @@ import Career from "./Career";
 import Education from "./Education";
 import Personal from "./Personal";
 
+//"npm run deploy" to deploy website changes
+
 const About = () => {
   const [personalNav, setPersonalNav] = useState(false);
   const [educationNav, setEducationNav] = useState(false);
