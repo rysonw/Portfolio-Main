@@ -47,7 +47,7 @@ const CareerTable = () => {
                 scope="row"
                 className="px-6 py-4 font-medium text-custom-orange dark:text-white whitespace-nowrap text-base"
               >
-                {data.companyName} {data.link} <img src="./public/HIANG.jpg" alt="HIANG"></img>
+                <a href={data.link}>{data.companyName}</a>
               </th>
               <td className="px-6 py-4 text-base text-custom-blue">
                 {data.designation}
