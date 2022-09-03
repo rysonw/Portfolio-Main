@@ -58,8 +58,14 @@ const CVComponents = () => {
             subTitle="Fellow / Production Engineering"
             list={[
               "Worked with Linux Systems, Flask, Docker, GitHub Actions, cAdvisor, and other technologies to keep services and applications running and highly available.",
+<<<<<<< Updated upstream
               "Programmed, designed, and deployed a sleek and professional portfolio template for users to utilize and personally customize themselves.",
               "Created a Docker containerized web application secured with SSL to run robustly and continuously using CI/CD tools in a CentOS AWS instance able to handle up to 100 requests per second.",
+=======
+              "Monitored the system and container processes using Prometheus and Grafana cutting down on core redundancies by ~30%.",
+              "Deployed a scalable, containerized open-source web application, built with Python, Flask, Jinja, Nginx, and MySQL, to a cloud server (DigitalOcean).",
+              "Set up a CI/CD pipeline through Github Actions reducing deployment time by 75% and wrote unittests to simplify debugging."
+>>>>>>> Stashed changes
             ]}
           />
           <Experience
@@ -68,10 +74,10 @@ const CVComponents = () => {
             duration="March 2018 - Present"
             subTitle="Senior Airman / Radio Frequency Operations Technician"
             list={[
+              "Engineered bash and python scripts for automatic deployment of equipment which improved efficiency by 70%",
               "Staged HF/VHF/SHF/UHF radios and various networking technologies to transfer local/remote data and voice",
               "Led and trained multiple personnel on fundamental radio theory and troubleshooting principles",
               "Deployed several satellite communication kits to provide commercial internet for over 40 personnel",
-              "Monitored critical LAN and WAN connections (e.g., T1, Ethernet, Radio) using a 3rd party software.",
             ]}
           />
         </div>
@@ -89,13 +95,13 @@ const CVComponents = () => {
             ]}
           />
           <Project
-            title="PyGame Card Game (Python)"
+            title="Exercise Tracker (Javascript, Node.js, MongoDB, Express, React)"
             subTitle="Personal Project"
-            link="https://github.com/rysonw/Ryson-Card-Collection-and-More"
+            link="https://github.com/rysonw/iSweat"
             list={[
-              "Utilized the module “PyGame” to create a collection of card games with an emphasis on OOP concepts",
-              "Created artistic and unique pixel art to enhance and improve player experience",
-              "Composed chippy-tune and 8-bt music to create a complete gaming experience",
+              "Utilized the MERN stack to create an application that saves personal exercise data like: “weight lifted”",
+              "Used a custom-built REST API to support CRUD operations within the application",
+
             ]}
           />
         </div>
@@ -120,16 +126,21 @@ const CVComponents = () => {
           <Title>Skills</Title>
           <Skill
             title="Languages (Proficient):"
-            name="Python, JavaScript, HTML, CSS"
+            name="Python, JavaScript, HTML, CSS, C#, Bash"
           />
           <Skill title="Languages (Learning):" name="Java, C++, Kotlin" />
           <Skill
             title="Certifications:"
-            name="CompTIA Network+, CompTIA Security+, ITS-305: Software Development"
+            name="CompTIA Network+, CompTIA Security+, ITS-305: Software Development in C#"
           />
           <Skill
+<<<<<<< Updated upstream
             title="Other:"
             name="Git, Linux, Microsoft Power Apps"
+=======
+            title="Software:"
+            name="Android Studio, Git, Visual Studio Code, Microsoft Power Apps, Docker, Linux"
+>>>>>>> Stashed changes
           />
         </div>
       </div>

@@ -12,12 +12,17 @@ const careerData = [
     link: "https://corsairranch.dso.mil/"
   },
   {
-    companyName: "Major League Hacking ",
+    companyName: "Major League Hacking",
     designation: "Fellow",
     duration: "3 Months",
     link: "https://fellowship.mlh.io/",
     logo: "./public/HIANG.jpg"
   },
+  {
+    companyName: "Microsoft Systems and Sodtware Academy",
+    designation: "Candidate",
+    duration: "4 Months",
+  }
 ];
 
 const CareerTable = () => {

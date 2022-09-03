@@ -1,4 +1,4 @@
-export const porgressPercentage = (number) => {
+export const progressPercentage = (number) => {
   if (number === "80") {
     return `after:content-['80%']`;
   }

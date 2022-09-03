@@ -1,10 +1,10 @@
 import Progress from "../Common/Progress";
 import Title from "../Common/Title";
 const skillData = [
-  { title: "ITS-305 Certification: Software Development in C#", percent: 80 },
-  { title: "CodePath's Technical Interview Preperation Course", percent: 67 },
-  { title: "Elements of Programming Interviews in Python by Adnan Aziz", percent: 90 },
-  { title: "Ryson's Card Collection", percent: 35 },
+  { title: "MSSA Program", percent: 0 },
+  { title: "Web Server Project in C#", percent: 5 },
+  { title: "Elements of Programming Interviews in Python by Adnan Aziz", percent: 30 },
+  { title: "AI Self Driving Car Project (Python) Project", percent: 20 },
 ];
 const Skills = () => {
   return (
