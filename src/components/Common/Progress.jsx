@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import "./Progress.css";
-import { porgressPercentage } from "./ProgressData";
+import { progressPercentage } from "./ProgressData";
 const Progress = ({ done, title }) => {
   const [style, setStyle] = useState({});
-  const result = porgressPercentage(`${done}`);
+  const result = progressPercentage(`${done}`);
   useEffect(() => {
     setTimeout(() => {
       const newStyle = {

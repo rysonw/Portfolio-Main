@@ -1,8 +1,7 @@
 import Progress from "../Common/Progress";
 import Title from "../Common/Title";
 const skillData = [
-  { title: "MSSA Program", percent: 0 },
-  { title: "Web Server Project in C#", percent: 5 },
+  { title: "Web Server Project in C#", percent: 25 },
   { title: "Elements of Programming Interviews in Python by Adnan Aziz", percent: 30 },
   { title: "AI Self Driving Car Project (Python) Project", percent: 20 },
 ];

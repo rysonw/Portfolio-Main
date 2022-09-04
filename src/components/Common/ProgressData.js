@@ -1,14 +1,11 @@
 export const progressPercentage = (number) => {
-  if (number === "80") {
-    return `after:content-['80%']`;
+  if (number === "25") {
+    return `after:content-['25%']`;
   }
-  if (number === "67") {
-    return `after:content-['67%']`;
+  if (number === "30") {
+    return `after:content-['30%']`;
   }
-  if (number === "90") {
-    return `after:content-['90%']`;
-  }
-  if (number === "35") {
-    return `after:content-['35%']`;
+  if (number === "20") {
+    return `after:content-['20%']`;
   }
 };

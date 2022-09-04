@@ -19,9 +19,10 @@ const careerData = [
     logo: "./public/HIANG.jpg"
   },
   {
-    companyName: "Microsoft Systems and Sodtware Academy",
+    companyName: "Microsoft Systems and Software Academy",
     designation: "Candidate",
     duration: "4 Months",
+    link: "https://military.microsoft.com/mssa/"
   }
 ];
 

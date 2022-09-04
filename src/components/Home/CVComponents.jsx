@@ -54,18 +54,13 @@ const CVComponents = () => {
           <Experience
             title="Major League Hacking Fellowship with Meta"
             location="Remote"
-            duration="May 2022 - Present"
+            duration="May 2022 - August 2022"
             subTitle="Fellow / Production Engineering"
             list={[
               "Worked with Linux Systems, Flask, Docker, GitHub Actions, cAdvisor, and other technologies to keep services and applications running and highly available.",
-<<<<<<< Updated upstream
-              "Programmed, designed, and deployed a sleek and professional portfolio template for users to utilize and personally customize themselves.",
-              "Created a Docker containerized web application secured with SSL to run robustly and continuously using CI/CD tools in a CentOS AWS instance able to handle up to 100 requests per second.",
-=======
               "Monitored the system and container processes using Prometheus and Grafana cutting down on core redundancies by ~30%.",
               "Deployed a scalable, containerized open-source web application, built with Python, Flask, Jinja, Nginx, and MySQL, to a cloud server (DigitalOcean).",
               "Set up a CI/CD pipeline through Github Actions reducing deployment time by 75% and wrote unittests to simplify debugging."
->>>>>>> Stashed changes
             ]}
           />
           <Experience
@@ -134,13 +129,8 @@ const CVComponents = () => {
             name="CompTIA Network+, CompTIA Security+, ITS-305: Software Development in C#"
           />
           <Skill
-<<<<<<< Updated upstream
-            title="Other:"
-            name="Git, Linux, Microsoft Power Apps"
-=======
             title="Software:"
             name="Android Studio, Git, Visual Studio Code, Microsoft Power Apps, Docker, Linux"
->>>>>>> Stashed changes
           />
         </div>
       </div>
