@@ -1,6 +1,5 @@
 import logo from "../../assets/logo.jpg";
 import ContactWave from "../../assets/svg/ContactWave";
-import Title from "../Common/Title";
 import Form from "../Utils/Form";
 
 const Contact = () => {

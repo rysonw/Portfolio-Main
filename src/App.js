@@ -12,13 +12,13 @@ function App() {
   AOS.init({ duration: 1200 });
   AOS.refresh();
 
-  useEffect(() => {
+  useEffect(() => { 
     setTimeout(() => {
       setLoading(false);
-    }, 1200);
+    }, 3500); // Edit Loading.gif playtime here (Currently at 3.5 seconds)
     setTimeout(() => {
       setLoaded(true);
-    }, 2500);
+    }, 5000); // Edit Loading.gif BACKGROUND before fadeout here (Currently at 5 seconds)
   });
   return (
     <BrowserRouter>

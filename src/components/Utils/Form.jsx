@@ -1,6 +1,6 @@
 const Form = () => {
   return (
-    <form data-aos="fade-up" className="xl:px-20 lg:px-8 px-4 pt-6 pb-8 mb-4">
+    <form data-aos="fade-up" className="xl:px-20 lg:px-8 px-4 pt-6 pb-8 mb-4" onSubmit="sendEmail(); reset(); return Fals">
       <div className="mb-4 text-left">
         <label
           className="block text-custom-blue text-base font-normal font-primary mb-2"
@@ -66,6 +66,21 @@ const Form = () => {
           Submit
         </button>
       </div>
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+      <script>
+        {/* function sendEmail() {
+          Email.send({
+            Host: "smtp.gmail.com",
+            Username: "your email",
+            Password: "your password",
+            To: "receiver email",
+            From: "sender email",
+            Subject: "This is the subject",
+            Body: "And this is the body",
+          }).then((message) => alert("mail sent successfully"))
+
+        } */}
+      </script>
     </form>
   );
 };

@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { HiOutlineArrowNarrowUp } from "react-icons/hi";
 import MobileNav from "../components/Common/MobileNav";
 import Navbar from "../components/Common/Navbar";
 import About from "../components/Home/About";
