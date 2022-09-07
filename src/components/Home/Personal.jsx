@@ -4,7 +4,7 @@ const Personal = () => {
       <h3 className="text-4xl font-semibold font-primary text-primary mt-4 mb-8 text-center">
         Ryson W. Wong
       </h3>
-      <p className="text-xl font-primary ml-0 md:ml-10">
+      <p className="text-xl font-primary ml-0 md:ml-10 text-align justify">
         Ryson was born and raised in the beautiful state of Hawaii. He enlisted into the Hawaii Air National Guard straight out of high school as a Radio Frequency Specialist. 
         Within his time with the military, he has dabbled with networking, cybersecurity practices and satellite communication fundamentals. 
         He has shown a consistent history of having a focused mindset, strict work ethic but also an eager attitude to learn and apply new things.
