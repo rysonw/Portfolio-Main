@@ -6,6 +6,7 @@ import Project from "../Common/CvComponent/Project";
 import Skill from "../Common/CvComponent/Skill";
 import Social from "../Common/CvComponent/Social";
 import Title from "../Common/CvComponent/Title";
+
 const CVComponents = () => {
   return (
     <div className="my-4 bg-primary rounded-md relative resume-box transition-all duration-700 shadow-2xl">
@@ -40,6 +41,17 @@ const CVComponents = () => {
         <div className="my-6">
           <Title>Work Experience</Title>
           <Experience
+            title="Microsoft Software and Systems Academy"
+            location="Remote"
+            duration="October 2022 - Present"
+            subTitle="Candidate / Cloud Application Developemnt"
+            list={[
+              "Designed and created software applications using ASP.NET MVC Core. Created from-scratch projects with loosely coupled software architecture. Created and implemented Restful API services. Practiced peer-to-peer code review",
+              "Implemented unit and integration testing to validate solutions in ASP.NET MVC Core projects.",
+              "Engineered and created responsive and clear user interfaces with Javascript, HTML/CSS and MySQL",
+            ]}
+          />
+          <Experience
             title="Corsair Ranch"
             location="Tucson, Arizona"
             duration="May 2022 - June 2022"
@@ -67,7 +79,7 @@ const CVComponents = () => {
             title="Hawaii Air National Guard"
             location="Kekaha, Hawaii"
             duration="March 2018 - Present"
-            subTitle="Senior Airman / Radio Frequency Operations Technician"
+            subTitle="Staff Sergeant / Cyber Defense Operator"
             list={[
               "Engineered bash and python scripts for automatic deployment of equipment which improved efficiency by 70%",
               "Staged HF/VHF/SHF/UHF radios and various networking technologies to transfer local/remote data and voice",
