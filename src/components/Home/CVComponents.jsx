@@ -44,7 +44,7 @@ const CVComponents = () => {
             title="Microsoft Software and Systems Academy"
             location="Remote"
             duration="October 2022 - Present"
-            subTitle="Candidate / Cloud Application Developemnt"
+            subTitle="Candidate / Cloud Application Development"
             list={[
               "Designed and created software applications using ASP.NET MVC Core. Created from-scratch projects with loosely coupled software architecture. Created and implemented Restful API services. Practiced peer-to-peer code review",
               "Implemented unit and integration testing to validate solutions in ASP.NET MVC Core projects.",

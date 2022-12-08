@@ -34,7 +34,7 @@ const projectData = [
 const Project = () => {
   return (
     <section id="projects" className="lg:w-[85%] sm:w-[90%] w-[98%] mx-auto">
-      <Title width={"w-[16rem]"}>MY PROJECTS</Title>
+      <Title width={"w-[16rem]"}>PROJECTS</Title>
       <div className="grid custom:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8  justify-items-center">
         {projectData.map((data, index) => (
           <ProjectCard key={index} data={data} />
