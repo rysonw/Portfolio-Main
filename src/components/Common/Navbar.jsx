@@ -12,7 +12,6 @@ const navData = [
   { name: "Home", link: "home", offset: -50 },
   { name: "about me", link: "about", offset: -50 },
   { name: "resume", link: "resume", offset: -50 },
-  { name: "projects", link: "projects", offset: -100 },
   { name: "contact", link: "contact", offset: 0 },
 ];
 const Navbar = () => {

@@ -5,10 +5,10 @@ import About from "../components/Home/About";
 import Contact from "../components/Home/Contact";
 import Footer from "../components/Home/Footer";
 import Hero from "../components/Home/Hero";
-import Project from "../components/Home/Project";
 import Resume from "../components/Home/Resume";
 import Skills from "../components/Home/Skills";
 import Loading from "./Loading/Loading";
+
 const Home = ({ loaded, loading }) => {
   const [backTopButton, setBackTopButton] = useState(false);
   useEffect(() => {
@@ -37,7 +37,6 @@ const Home = ({ loaded, loading }) => {
       <About />
       <Skills />
       <Resume />
-      <Project />
       <Contact />
       <Footer />
     </div>

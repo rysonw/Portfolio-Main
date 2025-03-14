@@ -20,20 +20,26 @@ const CVComponents = () => {
         </div>
         {/* education */}
         <div className="my-6">
+          
           <Title>Education</Title>
+          <EducationCard
+            school="Western Governers University"
+            location="Salt Lake City, Utah"
+            duration="June 2023 – Present"
+            degree="Bachelor of Science in Computer Science, GPA 4.00"
+            time="Expected Graduation, Dec 2025"
+          />
           <EducationCard
             school="Oregon State University"
             location="Corvallis, OR"
-            duration="June 2021 – Present"
+            duration="May 2021 – June 2023"
             degree="Bachelor of Engineering in Computer Science, GPA 3.82"
-            time="Expected Graduation, May 2024"
           />
           <EducationCard
             school="Community College of the Air Force"
             location="Maxwell AFB, Alabama"
-            duration="July 2019 – Present"
+            duration="July 2019 – March 2022"
             degree="Associates in Electronic Systems Technology, GPA 4.00"
-            time="Expected Graduation, July 2022"
           />
         </div>
         {/* work experience  */}
@@ -41,10 +47,66 @@ const CVComponents = () => {
         <div className="my-6">
           <Title>Work Experience</Title>
           <Experience
+            title="Amazon"
+            location="Seattle, WA"
+            duration="Sep 2024 - Dec 2024"
+            subTitle="SDE Intern / EC2 Load Balancing / Data Plane Platform"
+            list={[
+              "Designed and implemented PatchingPilot, an enterprise-wide automated alerting system that detects potential patching issues during critical rollout cycles, effectively managing a global ELB fleet of over 12 million nodes, including ADC regions",
+              "Onboarded five cross-functional teams to utilize PatchingPilot, enhancing patch management efficiency and ensuring consistent deployment practices across the organization",
+              "Fixed critical bugs for ELB patching services, ensuring seamless and reliable deployments during patching updates.",
+            ]}
+          />
+          <Experience
+            title="Microsoft"
+            location="Redmond, WA"
+            duration="May 2024 - Aug 2024"
+            subTitle="SWE Intern / AEP Silver and Sovereign / CloudSprout"
+            list={[
+              "Implemented an automated egress workflow that enhanced the build-out operations for Azure’s cloud offerings, including Public, Sovereign, and Air-Gapped clouds, by over 55%",
+              "Contributed to the execution of CloudSprout, a multi-cloud offering providing a centralized registry of configuration values, ensuring seamless integration and configuration management across diverse cloud environments.",
+              "Developed and deployed an end-to-end automated workflow utilizing the internal tool “Drift-In-Parity” to detect configuration value changes and raise automated Pull Requests, significantly reducing manual effort and error rates.",
+            ]}
+          />
+          <Experience
+            title="NASA JPL"
+            location="Pasadena, CA"
+            duration="Oct 2023 - Jan 2024"
+            subTitle="SWE Intern / IT Special Programs and Engineering Directorate / Applications"
+            list={[
+              "Developed a comprehensive dashboard using Django and TypeScript to optimize part management for hundreds of internal employees.",
+              "Implemented Ansible playbooks to automate system provisioning and configuration, resulting in a 30% reduction in deployment time for critical resources.",
+              "Integrated NetApp's ONTAP storage solution through a custom-built full-stack web part, enhancing storage efficiency for internal NASA JPL SharePoint sites in an air-gapped environment.",
+            ]}
+          />
+          <Experience
+            title="Amazon"
+            location="Seattle, WA"
+            duration="May 2023 - August 2023"
+            subTitle="SDE Intern / EC2 Load Balancing / Data Plane Routing"
+            list={[
+              "Led the development and design of a mock Identity Provider (IdP) internal tool, which greatly improved the authentication testing process for the AWS Application Load Balancing (ALB) software, boosting productivity and reducing testing time.",
+              "Created End-To-End Tests through a mock IdP internal tool which improved ALB reliability by 40% for customers who use external Identity Providers during the authentication process.",
+              "Furthered the efficiency and performance of the ALB software through the fast resolution of various software bugs which improved ALB user experience and reliability for millions of users",
+              "Coordinated with cross-functional teams and stakeholders to ensure the developed IdP tool adhered to partition-specific standards and compliance requirements across various AWS Cloud environments, thereby promoting widespread usability and adoption for in-house testing.",
+            ]}
+          />
+          <Experience
+            title="Northrop Grumman"
+            location="San Jose, CA"
+            duration="Jan 2023 - May 2023"
+            subTitle="SWE Intern / Mission Systems"
+            list={[
+              "Improved C++ programs that implement complex algorithms to analyze large datasets, improving data accuracy and processing efficiency.",
+              "Developed automated test scripts using Python to ensure the reliability and functionality of software applications, resulting in a 50% reduction in manual testing time",
+              "Wrote regression and unit tests using Catch2 for existing legacy codebase, resulting in a 40% decrease in the software's defects and increased confidence in the codebase among the development team.",
+            ]}
+          />
+          <Experience
             title="Microsoft Software and Systems Academy"
             location="Remote"
-            duration="October 2022 - Present"
-            subTitle="Candidate / Cloud Application Development"
+            duration="October 2022 - February 2023"
+            subTitle="Student / Cloud Application Development / Cohort CCAD9"
             list={[
               "Designed and created software applications using ASP.NET MVC Core. Created from-scratch projects with loosely coupled software architecture. Created and implemented Restful API services. Practiced peer-to-peer code review",
               "Implemented unit and integration testing to validate solutions in ASP.NET MVC Core projects.",
@@ -67,7 +129,7 @@ const CVComponents = () => {
             title="Major League Hacking Fellowship with Meta"
             location="Remote"
             duration="May 2022 - August 2022"
-            subTitle="Fellow / Production Engineering"
+            subTitle="Fellow / Production Engineering / Cohort MLH.SUM.20"
             list={[
               "Worked with Linux Systems, Flask, Docker, GitHub Actions, cAdvisor, and other technologies to keep services and applications running and highly available.",
               "Monitored the system and container processes using Prometheus and Grafana cutting down on core redundancies by ~30%.",
@@ -78,8 +140,8 @@ const CVComponents = () => {
           <Experience
             title="Hawaii Air National Guard"
             location="Kekaha, Hawaii"
-            duration="March 2018 - Present"
-            subTitle="Staff Sergeant / Cyber Defense Operator"
+            duration="March 2018 - March 2024"
+            subTitle="Staff Sergeant / Cyber Defense Operator / 150th Electromagentic Squadron"
             list={[
               "Engineered bash and python scripts for automatic deployment of equipment which improved efficiency by 70%",
               "Staged HF/VHF/SHF/UHF radios and various networking technologies to transfer local/remote data and voice",
@@ -89,56 +151,16 @@ const CVComponents = () => {
           />
         </div>
 
-        {/* project */}
-        <div className="my-6">
-          <Title>Projects</Title>
-          <Project
-            title="Flashcard Application (Android, Java)"
-            subTitle="CodePath"
-            link="https://github.com/rysonw/flashcard_application"
-            list={[
-              "Developed a flashcard application in Java to solidify mobile application development processes and practices",
-              "Utilized application for military purposes, mainly to optimize training plans by reaffirming networking concepts",
-            ]}
-          />
-          <Project
-            title="Exercise Tracker (Javascript, Node.js, MongoDB, Express, React)"
-            subTitle="Personal Project"
-            link="https://github.com/rysonw/iSweat"
-            list={[
-              "Utilized the MERN stack to create an application that saves personal exercise data like: “weight lifted”",
-              "Used a custom-built REST API to support CRUD operations within the application",
-
-            ]}
-          />
-        </div>
-        {/* activities  */}
-        <div className="my-6">
-          <Title>Leadership or Activities</Title>
-          <Activities
-            title="CodePath Mobile Application Developer"
-            location="Remote"
-            duration="Feb 2022 – April 2022"
-            subTitle="Participant"
-            list={[
-              "Collaborated with various young professionals to discuss and further application development practices",
-              "Presented impactful application ideas and frameworks to a panel of over 10 experienced software engineers.",
-              "Catalyzed a flashcard application that was used by ten military personnel for job training purposes",
-            ]}
-          />
-        </div>
-
         {/* skills */}
         <div className="my-6">
           <Title>Skills</Title>
           <Skill
             title="Languages (Proficient):"
-            name="Python, JavaScript, HTML, CSS, C#, Bash"
+            name="Python, C#, Java,  C++, JavaScript, HTML/CSS, MySQL, Bash"
           />
-          <Skill title="Languages (Learning):" name="Java, C++, Kotlin" />
           <Skill
             title="Certifications:"
-            name="CompTIA Network+, CompTIA Security+, ITS-305: Software Development in C#"
+            name=" CompTIA Network+, LPI Linux Essentials, CompTIA Security+, CompTIA ITF+, ITS-305: Software Development in C#, Microsoft AZ-900, FCC General Radio Operator License, AWS Cloud Practitioner, TS/SCI"
           />
           <Skill
             title="Software:"

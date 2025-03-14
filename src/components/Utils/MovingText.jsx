@@ -12,27 +12,27 @@ const MovingText = () => {
         onInit={(typewriter) => {
           typewriter
             .typeString(
-              "<span class='text-[#0e0c38] font-primary text-2xl md:text-4xl font-bold'>Student</span>"
+              "<span class='text-[#615aee] font-primary text-2xl md:text-4xl font-bold'>Engineer</span>"
             )
             .pauseFor(1500)
             .deleteAll()
             .typeString(
-              "<span class='text-[#f00512] font-primary text-2xl md:text-4xl font-bold'>Programmer</span>"
+              "<span class='text-[#f00512] font-primary text-2xl md:text-4xl font-bold'>Student</span>"
             )
             .pauseFor(1500)
             .deleteAll()
             .typeString(
-              "<span class='text-[#57ca56] font-primary text-2xl md:text-4xl font-bold'>Developer</span>"
+              "<span class='text-[#30722f] font-primary text-2xl md:text-4xl font-bold'>Veteran</span>"
             )
             .pauseFor(1500)
             .deleteAll()
             .typeString(
-              "<span class='text-[#57ca56] font-primary text-2xl md:text-4xl font-bold'>Service Member</span>"
+              "<span class='text-[#61333d] font-primary text-2xl md:text-4xl font-bold'>Lifelong Learner</span>"
             )
             .pauseFor(1500)
             .deleteAll()
             .typeString(
-              "<span class='text-[#57ca56] font-primary text-2xl md:text-4xl font-bold'>Leader</span>"
+              "<span class='text-[#3e1763] font-primary text-2xl md:text-4xl font-bold'>Leader</span>"
             )
             .pauseFor(1500)
             .deleteAll()
