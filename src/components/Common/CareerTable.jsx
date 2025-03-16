@@ -4,7 +4,7 @@ const careerData = [
   {
     companyName: "Hawaii Air National Guard",
     designation: "Cyber Defense Operator",
-    duration: "4 Years",
+    duration: "6 Years",
     link: "https://dod.hawaii.gov/hiang/"
   },
   {

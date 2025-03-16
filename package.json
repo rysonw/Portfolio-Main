@@ -1,8 +1,8 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://rysonw.org/",
-  "private": true,
+  "homepage": "https://rysonw.github.io/Portfolio-Main",
+  "private": false,
   "dependencies": {
     "@headlessui/react": "^1.6.5",
     "@react-pdf/renderer": "^2.2.0",

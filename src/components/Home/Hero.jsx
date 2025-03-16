@@ -47,14 +47,14 @@ const Hero = () => {
             <img
               src={Profile}
               alt="Profile Picture"
-              className="w-full lg:w-[70%] h-auto rounded-full border-4 border-white shadow-2xl transform hover:scale-105 transition-transform duration-300"
+              className="w-full lg:w-[80%] h-auto rounded-full border-4 border-white shadow-2xl transform hover:scale-105 transition-transform duration-300"
             />
           </div>
 
           {/* Pseudo-elements for Background Effects */}
           <div className="absolute inset-0 -z-1">
             <div className="absolute h-[50%] w-[50%] bg-custom-purple -left-[6%] lg:left-[-%] -bottom-3 sm:-bottom-5"></div>
-            <div className="absolute h-[50%] w-[50%] bg-custom-orange -right-[6%] lg:-right-[-22%] -top-3 sm:-top-5"></div>
+            <div className="absolute h-[50%] w-[50%] bg-custom-orange -right-[6%] lg:-right-[-14%] -top-3 sm:-top-5"></div>
           </div>
         </div>
       </div>

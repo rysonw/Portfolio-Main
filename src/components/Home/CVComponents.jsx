@@ -33,7 +33,7 @@ const CVComponents = () => {
             school="Oregon State University"
             location="Corvallis, OR"
             duration="May 2021 – June 2023"
-            degree="Bachelor of Engineering in Computer Science, GPA 3.82"
+            degree="Bachelor of Engineering in Computer Science, GPA 4.00"
           />
           <EducationCard
             school="Community College of the Air Force"

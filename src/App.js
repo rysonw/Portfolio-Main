@@ -1,5 +1,5 @@
 import AOS from "aos";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter , Route, Routes } from "react-router-dom";
 import "./App.css";
 
 import "aos/dist/aos.css";
@@ -21,11 +21,11 @@ function App() {
     }, 5000); // Edit Loading.gif BACKGROUND before fadeout here (Currently at 5 seconds)
   });
   return (
-    <BrowserRouter>
+    <HashRouter >
       <Routes>
         <Route path="/*" element={<Home loading={loading} loaded={loaded} />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter >
   );
 }
 
