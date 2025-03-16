@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.e1ad5670.css",
-    "main.js": "/static/js/main.cb84d008.js",
-    "static/js/787.d0734680.chunk.js": "/static/js/787.d0734680.chunk.js",
-    "static/media/logo.jpg": "/static/media/logo.b5e8e04af99b1b00723c.jpg",
-    "static/media/loading.gif": "/static/media/loading.844fa39266031851b513.gif",
-    "static/media/picture2.png": "/static/media/picture2.6c291d06c214d393bc82.png",
-    "static/media/Resume - Ryson Wong.pdf": "/static/media/Resume - Ryson Wong.aea86523230a46adaca0.pdf",
-    "index.html": "/index.html",
-    "main.e1ad5670.css.map": "/static/css/main.e1ad5670.css.map",
-    "main.cb84d008.js.map": "/static/js/main.cb84d008.js.map",
-    "787.d0734680.chunk.js.map": "/static/js/787.d0734680.chunk.js.map"
+    "main.css": "/Portfolio-Main/static/css/main.e1ad5670.css",
+    "main.js": "/Portfolio-Main/static/js/main.f8537258.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio-Main/static/js/787.1ed0c42c.chunk.js",
+    "static/media/logo.jpg": "/Portfolio-Main/static/media/logo.b5e8e04af99b1b00723c.jpg",
+    "static/media/loading.gif": "/Portfolio-Main/static/media/loading.844fa39266031851b513.gif",
+    "static/media/picture2.png": "/Portfolio-Main/static/media/picture2.6c291d06c214d393bc82.png",
+    "static/media/Resume - Ryson Wong.pdf": "/Portfolio-Main/static/media/Resume - Ryson Wong.aea86523230a46adaca0.pdf",
+    "index.html": "/Portfolio-Main/index.html",
+    "main.e1ad5670.css.map": "/Portfolio-Main/static/css/main.e1ad5670.css.map",
+    "main.f8537258.js.map": "/Portfolio-Main/static/js/main.f8537258.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio-Main/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e1ad5670.css",
-    "static/js/main.cb84d008.js"
+    "static/js/main.f8537258.js"
   ]
 }
